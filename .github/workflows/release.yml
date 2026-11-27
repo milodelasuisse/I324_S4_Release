@@ -22,4 +22,4 @@ jobs:
 
       - run: npm ci && npm test
 
-      - uses: gh release create
+      - uses: gh release create v1.0.0 --generate-notes
